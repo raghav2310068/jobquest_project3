@@ -356,7 +356,7 @@ button:hover {
   font-size: xx-large;
 }
 .resources--body {
-  background: linear-gradient(to right, rgb(255, 219, 253)), rgb(255, 1, 174);
+  background: linear-gradient(to right, rgb(255, 218, 253)), rgb(255, 1, 174);
   /* max-width: 600px; */
   max-width: 100%;
   height: auto;
