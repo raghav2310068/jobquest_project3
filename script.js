@@ -191,3 +191,7 @@ function displayCompany(company) {
   `;
   document.getElementById("new-companies-container").appendChild(newCompany);
 }
+let follow=document.getElementsByClassName('follow_button');
+let change_color=function(){
+  follow.
+}
