@@ -403,3 +403,48 @@ th {
   font-weight: bold;
   line-height: 16px;
 }
+
+/* .login--div{
+  height: 60vh;
+  display:flexbox;
+  width:50vh;
+  background-color: white;
+  margin:auto;
+  /* margin-left: 26rem; */
+/* margin-top: 5%; */
+  /* margin-left: 5%; */
+  /* margin-right: 5%; */
+/* } */
+/* .button--login{ */
+  /* margin:auto; */
+  /* margin-left: 5px  ; */
+  /* display: inline; */
+/* } */ 
+.login-container {
+  display: flex;
+  justify-content: space-around; /* Space out the forms */
+  margin-top: 75px;
+  padding: 0 20px;
+  width: 85%;
+  align-content: center;
+}
+.login--div{
+  height: auto;
+  background-color: whitesmoke;
+ text-align:center ;
+  margin-left: 8%;
+  padding: 4%;
+  
+}
+.login-container label{
+  display: block;
+  margin: 20px 0 5px;
+  text-align: left;
+  font-size: 20px;
+}
+.login-container input{
+  display: block;
+  margin: 20px 0 5px;
+  text-align: center;
+  font-size: 20px;
+}
