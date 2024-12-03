@@ -1,23 +1,16 @@
 "use script";
-document.addEventListener("DOMContentLoaded", function () {
-  const slides = document.querySelectorAll(".image-slider .slide");
-  let currentIndex = 0;
+const passwordSeeker = document.getElementById("password--seeker").value;
+const passwordgiver = document.getElementById("password--giver").value;
+const usernameSeeker = document.getElementById("username--seeker").value;
+const usernameGiver = document.getElementById("username--giver").value;
+document.getElementById("homewalinav").classList.remove("home--nav");
+document.getElementById("normalnav").classList.remove("normal--nav");
 
-  // Function to switch images
-  function showNextSlide() {
-    slides[currentIndex].classList.remove("active");
-    currentIndex = (currentIndex + 1) % slides.length;
-    slides[currentIndex].classList.add("active");
-  }
-
-  // Set the first image to be visible
-  slides[currentIndex].classList.add("active");
-
-  // Trigger the next image on hover
-  const imageSlider = document.querySelector(".image-slider");
-  imageSlider.addEventListener("mouseenter", showNextSlide);
+let giverCredentials = [usernameGiver, 12345678];
+let seekerCredentials = [usernameSeeker + "@seeker.jobquest.in", 12345678];
+document.getElementById("login--giver").addEventListener("click", function () {
+  alert("244");
 });
-
 //------------------------------------------
 function showEligibleCompanies() {
   // Get CGPA values from the form
@@ -191,7 +184,4 @@ function displayCompany(company) {
   `;
   document.getElementById("new-companies-container").appendChild(newCompany);
 }
-let follow=document.getElementsByClassName('follow_button');
-let change_color=function(){
-  follow.
-}
+let follow = document.getElementsByClassName("follow_button");
